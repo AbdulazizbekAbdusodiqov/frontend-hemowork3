@@ -13,7 +13,7 @@ header{
     background-color: #4E46B4;
 }
 .container{
-    max-width: 1194px;
+    max-width: 1200px;
     margin: 0px auto;
 }
 .navbar{
@@ -27,12 +27,31 @@ header{
 .navbar__menu{
     display: flex;
     width: 646px;
+    gap: 20px;
 }
 .menu__items{
     display: flex;
     align-items: center;
-    
+    width: 426px;
+    justify-content: space-between;
 }
 .menu__item{
     display: flex;
+    align-self: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+.menu__item img{
+    width: 19px;
+    height: 18.6px;
+}
+
+.navbar__menu button{
+    width: 196px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #4E46B4;
+    font-weight: 600;
 }

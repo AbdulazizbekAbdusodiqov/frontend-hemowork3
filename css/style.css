@@ -1,0 +1,38 @@
+@font-face {
+    font-family: SFProDisplay;
+    src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: SFProDisplay;
+}
+header{
+    background-color: #4E46B4;
+}
+.container{
+    max-width: 1194px;
+    margin: 0px auto;
+}
+.navbar{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.navbar__menu{
+    display: flex;
+    width: 646px;
+}
+.menu__items{
+    display: flex;
+    align-items: center;
+    
+}
+.menu__item{
+    display: flex;
+}

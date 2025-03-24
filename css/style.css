@@ -105,13 +105,13 @@ header{
     gap: 50px;
 }
 
-.card-wrapper{
+.category__card-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
 
-.card{
+.category__card-wrapper .card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -122,7 +122,7 @@ header{
     width: 174px;
     height: 152px;
 }
-.card-img{
+.category__card-wrapper .card-img{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -130,4 +130,116 @@ header{
     height: 118px;
     border-radius: 22px;
     background-color: #F5F5F5;
+}
+
+/* Advertisements */
+
+.advertisements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+.advertisements__card-wrapper{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.advertisements .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 276px;
+    height: 354px;
+    padding: 16px;
+    padding-bottom: 24px;
+    gap: 12px;
+    border-radius: 12px;
+    background-color: #F5F5F5;
+}
+
+.advertisements .card-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 244px;
+    height: 218px;
+}
+.advertisements .card-header img{
+    width: 244px;
+    height: 174px;
+    border-radius: 6px;
+}
+
+.advertisements .card__product-name{
+    display: flex;
+    width: 244px;
+    height: 24px;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #000000;
+}
+.advertisements .card__product-name img{
+    width: 20px;
+    height: 20px;
+}
+
+.advertisements .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.advertisements .phone__info{
+    display: flex;
+    width: 244px;
+    height: 24px;
+    gap: 16px;
+}
+
+.advertisements h6{
+    width: 71px;
+    color: #999CA0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.advertisements .phone__info p{
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.card__state.phone__info p{
+    color: #4E46B4;
+}
+
+.advertisements .card-footer{
+    display: flex;
+    justify-content: start;
+    width: 244px;
+    gap: 16px;
+    max-width: 244px;
+}
+.advertisements .card-footer p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4E46B4;
+}
+.advertisements .card-footer span{
+    width: 75px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 8px;
+    padding: 0 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #4AD15F;
+    background-color: #4AD15F33;
+
 }
